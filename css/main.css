@@ -1,0 +1,104 @@
+body{
+  background-color: #000;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  text-align: center;
+  color: #b31b0a;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.fortune-teller{
+  margin: 0 auto;
+  max-width: 300px;
+  position:relative;
+}
+
+.img{
+  display: block;
+  margin: 0 auto;
+}
+
+.fade{
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.swap{
+  position:absolute;
+  left:0;
+}
+
+.transparent{
+  opacity:0;
+}
+
+.zoltar-machine{
+  width: 300px;
+}
+
+.zoltar-img{
+  height: 325px;
+  width: 200px;
+}
+
+.intro-msg{
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  height: 120px;
+  margin-top: 40px;
+}
+
+.btn-enlighten{
+  margin: 0 auto;
+  height: 30px;
+  width: 140px;
+  display: block;
+  background-color: #e62929;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-enlighten:hover{
+  box-shadow: 3px 2px 30px rgba(230,41,41,0.8);
+}
+
+.fortune-card{
+  background-color: #fffe87;
+  height: 450px;
+  width: 250px;
+  margin-left: 25px;
+  margin-top: 25%;
+}
+
+.fortune-img{
+  border: 2px solid #000;
+  width: 215px;
+  height: 120px;
+}
+
+.fortune-text{
+  padding: 0 15px;
+  text-align: justify
+}
+
+.hire-link{
+  color: #b31b0a;
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.hire-link:hover{
+  color:#ff2020;
